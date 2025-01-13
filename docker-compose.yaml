@@ -23,7 +23,7 @@ services:
      restart: always
      container_name: caddy
      volumes:
-       - ./caddy/Caddyfile:/etc/caddy/Caddyfile
+       - ./Caddyfile:/etc/caddy/Caddyfile
        - ./caddy/certs:/certs
        - ./caddy/config:/config
        - ./caddy/data:/data
